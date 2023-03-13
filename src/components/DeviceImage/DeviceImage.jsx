@@ -48,7 +48,7 @@ export function DeviceImage({ device, latency, onAnimationFinish }) {
 
       {latency && (
         <div
-          className={`${styles.deviceScreen} ${styles[device.alt]}`}
+          className={`mask ${styles.deviceScreen} ${styles[device.alt]}`}
           style={{ width: `${progress}%` }}
         />
       )}

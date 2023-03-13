@@ -201,7 +201,9 @@ function App() {
         {infoDownloads.map((el, i) => (
           <div
             key={i}
-            className={`${styles.downloadText} ${styles[downloadTextPositions[el.idRegion]]}`}
+            className={`infoDownload ${styles.downloadText} ${
+              styles[downloadTextPositions[el.idRegion]]
+            }`}
           >
             {el.download ? `time: ${el.download} sec` : `latency: ${el.latency}`}
           </div>
