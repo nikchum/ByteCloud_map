@@ -1,0 +1,153 @@
+.container {
+    max-width: 1440px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    overflow-y: visible
+}
+
+
+// Men
+
+.boxMan {
+    position: absolute;
+    z-index: 3;
+    width: 45%;
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+
+    img {
+        height: 100%;
+    }
+}
+
+.manNorthUsa {
+    top: 36%;
+    left: 19%;
+}
+
+.manSouthUsa {
+    top: 65%;
+    left: 29%;
+}
+
+.manEurope {
+    top: 34%;
+    left: 50%;
+}
+
+.manAustralia {
+    top: 73%;
+    left: 81%;
+}
+
+.manSingapore {
+    top: 47%;
+    left: 72%;
+}
+
+
+// circle
+
+.circle {
+    width: 3.3%;
+    position: absolute;
+    cursor: pointer;
+    z-index: 3;
+
+    &:hover {
+        background-color: black;
+        border-radius: 50%;
+    }
+}
+
+.circleAmericaLeft {
+    top: 44%;
+    left: 13%;
+}
+
+.circleAmericaRight {
+    top: 42%;
+    left: 28%;
+}
+
+.circleEurope {
+    top: 38%;
+    left: 48%;
+}
+
+.circleSingapore {
+    top: 66%;
+    left: 75%;
+}
+
+
+// server
+
+.server {
+    width: 3.8%;
+    position: absolute;
+
+    &:hover {
+        background-color: inherit;
+        border-radius: 0;
+    }
+}
+
+
+// line
+
+.line {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+
+// text download
+
+.downloadText {
+    position: absolute;
+    color: black;
+    font-size: 14px;
+    padding: 3px 7px;
+    background-color: rgb(88, 221, 221);
+    border-radius: 5px;
+    display: inline;
+}
+
+.northAmericaText {
+    top: 27%;
+    left: 8%;
+}
+
+.southAmericaText {
+    top: 85%;
+    left: 20%;
+}
+
+.europeText {
+    top: 22%;
+    left: 60%;
+}
+
+.australiaText {
+    top: 88%;
+    left: 84%;
+}
+
+.singaporeText {
+    top: 40%;
+    left: 84%;
+}

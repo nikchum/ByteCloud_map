@@ -1,0 +1,121 @@
+.deviceBox {
+    position: absolute;
+    width: 100%;
+}
+
+.device {
+    width: 3.3%;
+}
+
+.deviceScreen {
+    position: absolute;
+    background-color: #4f68f7;
+    border-radius: 1px;
+}
+
+.PC {
+    top: 19%;
+    left: 0.32%;
+    width: 2.65%;
+    height: 46%;
+}
+
+.Tablet {
+    top: 14.5%;
+    left: 0.85%;
+    width: 1.6%;
+    height: 65%;
+}
+
+.Mobile {
+    top: 25%;
+    left: 1.1%;
+    width: 1.1%;
+    height: 20%;
+}
+
+
+// NorthUSA
+
+.northUsaPc {
+    top: 39%;
+    left: 24%;
+}
+
+.northUsaTablet {
+    top: 43.5%;
+    left: 19.7%;
+}
+
+.northUsaMob {
+    top: 39%;
+    left: 16%;
+}
+
+// SouthUSA
+
+.southUsaPc {
+    top: 70%;
+    left: 33%;
+}
+
+.southUsaTablet {
+    top: 77%;
+    left: 31%;
+}
+
+.southUsaMob {
+    top: 65%;
+    left: 28%;
+}
+
+// Europe
+
+.europePc {
+    top: 37%;
+    left: 52%;
+}
+
+.europeTablet {
+    top: 42%;
+    left: 45%;
+}
+
+.europeMob {
+    top: 33%;
+    left: 58%;
+}
+
+// Australia
+
+.australiaPc {
+    top: 77%;
+    left: 86%;
+}
+
+.australiaTablet {
+    top: 77%;
+    left: 78%;
+}
+
+.australiaMob {
+    top: 77%;
+    left: 82%;
+}
+
+// Singapore
+
+.singaporePc {
+    top: 50%;
+    left: 76%;
+}
+
+.singaporeTablet {
+    top: 52%;
+    left: 67%;
+}
+
+.singaporeMob {
+    top: 39%;
+    left: 80%;
+}

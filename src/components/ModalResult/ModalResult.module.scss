@@ -1,0 +1,49 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.modal {
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    transform: translate(-50%, -50%);
+    color: black;
+    z-index: 101;
+
+    @media screen and (max-width: 850px) {
+        gap: 10px;
+    }
+}
+
+.title {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+
+    @media screen and (min-width: 1100px) {
+        font-size: 26px;
+    }
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    @media screen and (max-width: 850px) {
+        gap: 5px;
+    }
+}
