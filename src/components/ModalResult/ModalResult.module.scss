@@ -21,6 +21,7 @@
     transform: translate(-50%, -50%);
     color: black;
     z-index: 101;
+    animation: animation-opacity 500ms forwards;
 
     @media screen and (max-width: 850px) {
         gap: 10px;
@@ -45,5 +46,15 @@
 
     @media screen and (max-width: 850px) {
         gap: 5px;
+    }
+}
+
+@keyframes animation-opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }

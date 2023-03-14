@@ -25,6 +25,7 @@
     display: flex;
     gap: 5px;
     align-items: flex-end;
+    animation: animation-opacity 500ms forwards;
 
     img {
         height: 100%;
@@ -64,6 +65,7 @@
     position: absolute;
     cursor: pointer;
     z-index: 3;
+    animation: animation-opacity 500ms forwards;
 
     &:hover {
         background-color: black;
@@ -97,6 +99,7 @@
 .server {
     width: 3.8%;
     position: absolute;
+    animation: animation-opacity 500ms forwards;
 
     &:hover {
         background-color: inherit;
@@ -112,6 +115,7 @@
     top: 0%;
     left: 0%;
     width: 100%;
+    animation: animation-opacity 200ms forwards;
 }
 
 
@@ -125,6 +129,7 @@
     background-color: rgb(88, 221, 221);
     border-radius: 5px;
     display: inline;
+    animation: animation-opacity 500ms forwards;
 }
 
 .northAmericaText {
@@ -150,4 +155,14 @@
 .singaporeText {
     top: 40%;
     left: 84%;
+}
+
+@keyframes animation-opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

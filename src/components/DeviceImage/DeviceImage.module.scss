@@ -5,6 +5,7 @@
 
 .device {
     width: 3.3%;
+    animation: animation-opacity 500ms forwards;
 }
 
 .deviceScreen {
@@ -115,4 +116,14 @@
 .singaporeMob {
     top: 39%;
     left: 80%;
+}
+
+@keyframes animation-opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
